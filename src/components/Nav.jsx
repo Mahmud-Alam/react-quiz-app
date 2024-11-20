@@ -1,3 +1,4 @@
+import logo from "../assets/images/quizLogo.png";
 import classes from "../styles/Nav.module.css";
 import Account from "./Account";
 
@@ -7,7 +8,8 @@ export default function Nav() {
       <ul>
         <li>
           <a href="index.html" className={classes.brand}>
-            <h3>Md Mahmud Alam</h3>
+            <img src={logo} alt="Quiz logo" />
+            <h3>Mahmud Alam</h3>
           </a>
         </li>
       </ul>
