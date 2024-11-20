@@ -9,7 +9,7 @@ export default function Nav() {
         <li>
           <a href="index.html" className={classes.brand}>
             <img src={logo} alt="Quiz logo" />
-            <h3>Mahmud Alam</h3>
+            <h3>Quiz App</h3>
           </a>
         </li>
       </ul>

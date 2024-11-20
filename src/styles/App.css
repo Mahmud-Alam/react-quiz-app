@@ -19,7 +19,8 @@
 }
 
 body {
-  background-color: var(--bodyBackground);
+  /* background-color: var(--bodyBackground); */
+  background-color: white;
 }
 
 a {
